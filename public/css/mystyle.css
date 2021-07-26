@@ -1,0 +1,70 @@
+.ms-menu-self {
+	margin-top: 40%;
+}
+
+.ms-menu-first-user {
+	margin-top: 13%;
+}
+
+.ms-menu-first {
+	margin-top: 19%;
+}
+
+.ms-menu {
+	margin-top: 25px;
+}
+
+.ms-menu-color {
+	color: #ADADAD;
+}
+
+.ms-no-border {
+	border: none !important;
+}
+
+.ms-no-shadow {
+	box-shadow: none !important;
+}
+
+@media (min-width: 979px) {
+	.ms-col {
+		padding-left: 0px;
+		padding-right: 0px;
+		display: table-cell;
+		vertical-align: top;
+		float: none;
+	}
+
+	.ms-col-border {
+		border-right: 1px solid #E9E9E9;
+	}
+
+	.ms-row {
+		margin-top: 0px;
+		display: table-row;
+	}
+
+	.ms-container {
+		display: table;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+@media screen and (min-width: 979px) {
+	.block-wizard {
+		padding: 0;
+		border: none;
+		box-shadow: none;
+	}
+
+	.fuelux .wizard {
+		box-shadow: none;
+		border-radius: 0;
+		-webkit-border-radius: 0;
+		border: 0;
+		border-bottom: 1px solid #E2E2E2;
+		border-top: none;
+		background: #FFF;
+	}
+}
